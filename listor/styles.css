@@ -1,0 +1,29 @@
+h1, h2, ul, ol{
+    text-align: center;
+}
+
+ul, ol{
+    list-style-position: inside;
+    padding:0%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+h1 {
+    width: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 10px solid blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
