@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exempel 1 navigation bar</title>
+    <meta charset = "utf-8" />
+    <link href = "css/navigation.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header class="header">
+        <h1>Blommor AB</h1>
+    </header>
+    <header class="mainmenu">
+        <ul>
+          <li><a href="home.html">Hem</a></li>
+          <li><a href="blommor.html">Våra blommor</a></li>
+          <li><a href="varukorg.html">Din Varukorg</a></li>
+          <li><a href="about.html">Om oss</a></li>
+        </ul>
+    </header>
+    <div class="blommor">
+      <p>
+      här är våra blommor
+      </p>
+      <p>
+        <div class="eldblomma">
+        <div class="text">
+          Eldblomma (Mycket farlig!)
+          </div>
+        <div class="bild">
+        <img src="eldblomma.png" alt="Eldblomma">
+        <form action="varukorg.html" method="get">
+          <input type="hidden" name="blomma" value="Eldblomma">
+          <button type="submit">Lägg till i varukorg</button>
+        </form>
+          </div>
+        </div>
+        <div class="pirajablomma"> 
+          <div class="text">
+            Piraja planta(Bits!)
+          </div>
+          <div class="Bild">
+            <img src="pirajaplanta.png" alt="Piraja Planta">
+            <form action="varukorg.html" method="get">
+              <input type="hidden" name="blomma" value="Piraja planta">
+              <button type="submit">Lägg till i varukorg</button>
+            </form>
+          </div>
+        </div>
+      </p>
+    </div>
+  </body>
+</html>

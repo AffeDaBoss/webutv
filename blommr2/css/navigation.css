@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a053b;
+    position:sticky;
+    bottom: 0;
+    width: 100%;  
+    border-radius: 10px; 
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3d7416;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding: 4px;
+}
+
+p {
+    padding: 4px;
+    animation: color-change 1s infinite;
+}
+
+ul, li, li a, body, h1, p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img {
+    max-height: 10%;
+    max-width: 10%;
+}
