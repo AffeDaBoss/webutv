@@ -1,0 +1,51 @@
+img {
+    max-width: 200px;
+    margin-top: 75px;
+    border-radius: 10px;
+}
+
+figure {
+    margin: 0;
+    font-size:30px;
+}
+
+@media screen and (min-width: 794px) {
+    body {
+    background: purple;
+    margin: 2px;
+    }
+    
+    }
+
+    @media screen and (min-width: 420px) {
+        body {
+        background: rgb(33, 150, 186);
+        margin: 20px;
+        }
+
+        h1 {
+            font-size: 100px;
+        }
+        
+        h2 {
+            font-size: 10px;
+        }
+
+        }
+
+    @media screen and (min-width: 1020px) {
+        body {
+        background: rgb(130, 206, 16);
+        margin: 55px;
+        max-width: 1000px;
+        }
+    
+        h1 {
+            font-size: 15px;
+        }
+            
+        h2 {
+            font-size: 100px;
+        }
+
+        }
