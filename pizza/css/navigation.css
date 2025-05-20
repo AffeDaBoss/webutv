@@ -1,0 +1,107 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff4d00;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b02c04;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    padding: 4px;
+    font-size: 20px;
+}
+
+p {
+    padding: 4px;
+    font-size: 16px;
+}
+
+.bild {
+    max-height: 150px;
+    height: 10rem;
+    max-width: auto;
+    margin-left: 20px;
+}
+
+.pizza {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem; /* lite luft mellan pizzorna */
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.text h2,
+.text p {
+    margin: 0;
+}
+
+.lasmer {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.lasmer:hover {
+    background-color: #c62828;
+}
+
+.freddy {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 40vw;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.freddy img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pizzor {
+    margin-top: 3rem;
+}
